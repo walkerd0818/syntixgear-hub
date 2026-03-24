@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Orbitron, Share_Tech_Mono, DM_Sans } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const dmSans = DM_Sans({ subsets: ["latin"], weight: ["300", "400"] });
@@ -48,6 +49,7 @@ export default function RootLayout({
           {`53 59 4e 54 49 58\n47 45 41 52 20 2f\n2f 20 76 31 2e 30`}
         </div>
         {children}
+        <Analytics />
       </body>
     </html>
   );
