@@ -2,7 +2,7 @@
     "rewrites": [
         {
             "source": "/calc-vault/:path*",
-            "destination": "https://calc-vault.vercel.app/:path*"
+            "destination": "https://calc-vault.vercel.app*"
         }
     ]
 }
