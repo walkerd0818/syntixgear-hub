@@ -62,14 +62,16 @@ export default function ShopsPage() {
           >
             <span className="card-status">
               <span className="status-dot" />
-              coming soon
+              Shop is live
             </span>
             <span className="card-icon">◈</span>
             <div className="card-label">shop_01</div>
             <div className="card-title">TeePublic</div>
             <p className="card-desc">
-              Original SyntixGear designs on tees, hoodies, stickers, and more.
-              Printed on demand, shipped worldwide.
+              Premium apparel for developers, engineers, and tech visionaries. 
+              Syntix Gear blends minimalist design with maximum impact. 
+              Clean lines, technical themes, and essential graphics for your daily rotation. 
+              Elevate your setup. Wear the syntax.
             </p>
             <div className="card-cta">Visit Shop →</div>
           </a>
@@ -98,19 +100,19 @@ export default function ShopsPage() {
           {/* RedBubble */}
           <a
             className="card card-redbubble"
-            href="https://www.redbubble.com/people/YOUR-STORE-NAME/shop"
+            href="https://www.redbubble.com/people/syntixgear/shop"
             target="_blank"
             rel="noopener noreferrer"
           >
             <span className="card-status">
               <span className="status-dot" />
-              coming soon
+              Shop is live
             </span>
             <span className="card-icon">◉</span>
             <div className="card-label">shop_03</div>
             <div className="card-title">RedBubble</div>
             <p className="card-desc">
-              Artwork and designs on 70+ products — from phone cases to wall
+              Artwork and designs on products — from phone cases to wall
               art. Independent, creative, and one-of-a-kind.
             </p>
             <div className="card-cta">Explore Designs →</div>
