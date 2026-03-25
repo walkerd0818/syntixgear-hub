@@ -56,7 +56,7 @@ export default function ShopsPage() {
           {/* TeePublic */}
           <a
             className="card card-orange"
-            href="https://www.teepublic.com/user/YOUR-STORE-NAME"
+            href="https://www.teepublic.com/user/syntixgear"
             target="_blank"
             rel="noopener noreferrer"
           >
