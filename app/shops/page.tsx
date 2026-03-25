@@ -1,3 +1,11 @@
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: '/shops',
+  },
+};
+
 export default function ShopsPage() {
   return (
     <>

@@ -1,3 +1,11 @@
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: '/cookies',
+  },
+};
+
 export default function CookiesPage() {
   return (
     <>
