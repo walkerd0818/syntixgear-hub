@@ -8,8 +8,12 @@ module.exports = {
   async rewrites() {
     return [
       {
+        source: "/calc-vault",
+        destination: "https://calc-vault.vercel.app/calc-vault", // Proxy to Backend
+      },
+      {
         source: "/calc-vault/:path*",
-        destination: "http://localhost:3001/calc-vault/:path*", // Proxy to Backend
+        destination: "https://calc-vault.vercel.app/calc-vault/:path*", // Proxy to Backend
       },
     ];
   },
