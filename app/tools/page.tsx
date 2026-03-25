@@ -1,3 +1,11 @@
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: '/tools',
+  },
+};
+
 export default function ToolsPage() {
   return (
     <>

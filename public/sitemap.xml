@@ -52,7 +52,7 @@
   </url>
 
   <url>
-    <loc>https://syntixgear.com/legal</loc>
+    <loc>https://syntixgear.com/calc-vault/legal</loc>
     <priority>0.85</priority>
     <changefreq>weekly</changefreq>
   </url>
@@ -95,7 +95,7 @@
   </url>
 
   <url>
-    <loc>https://syntixgear.com/finance/investment-roi</loc>
+    <loc>https://syntixgear.com/calc-vault/finance/investment-roi</loc>
     <priority>0.75</priority>
     <changefreq>weekly</changefreq>
   </url>
@@ -134,7 +134,7 @@
 
   <!-- Engineering -->
   <url>
-    <loc>https://syntixgear.com/engineering/scientific</loc>
+    <loc>https://syntixgear.com/calc-vault/engineering/scientific</loc>
     <priority>0.70</priority>
     <changefreq>monthly</changefreq>
   </url>
