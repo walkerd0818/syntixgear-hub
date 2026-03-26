@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Orbitron, Share_Tech_Mono, DM_Sans } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
+import Script from 'next/script';
 import "./globals.css";
 
 const dmSans = DM_Sans({ subsets: ["latin"], weight: ["300", "400"] });
@@ -39,6 +40,19 @@ export default function RootLayout({
         />
       </head>
       <body className={dmSans.className}>
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-FX3Y5XSGTC"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-FX3Y5XSGTC');
+          `}
+        </Script>
         <div className="ambient ambient-1" />
         <div className="ambient ambient-2" />
         <div
