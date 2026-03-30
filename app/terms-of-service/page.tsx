@@ -137,8 +137,7 @@ export default function TermsOfServicePage() {
             &nbsp;·&nbsp; <a href="/cookies">Cookies</a>
             &nbsp;·&nbsp; <a href="/legal">Legal</a>
             &nbsp;·&nbsp; <a href="/privacy">Privacy</a>
-            &nbsp;·&nbsp; <a href="/terms-of-service">Terms of Service</a>
-          </p>
+           </p>
         </footer>
       </main>
     </>
