@@ -4,16 +4,17 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/privacy',
   },
+  title: 'Privacy Policy | SyntixGear',
 };
 
-export default function TermsPage() {
+export default function PrivacyPage() {
   return (
     <>
       <div className="hex-deco hex-deco-1">
-        {`74 65 72 6d 73 3a\n3a 6f 66 3a 3a 75\n73 65 3a 3a 76 31\n3a 3a 61 63 74 69`}
+        {`70 72 69 76 61 63\n79 3a 3a 73 79 6e\n74 69 78 3a 3a 67\n65 61 72 3a 3a 76`}
       </div>
       <div className="hex-deco hex-deco-2">
-        {`3a 3a 61 67 72 65\n65 64 3a 3a 74 72\n75 65 3a 3a 5b 4f\n4b 5d 3a 3a 5b 45`}
+        {`3a 3a 64 61 74 61\n3a 3a 73 61 66 65\n3a 3a 74 72 75 65\n3a 3a 5b 4f 4b 5d`}
       </div>
 
       <nav className="back-nav">
@@ -25,7 +26,7 @@ export default function TermsPage() {
       <main className="page legal-page">
         <header className="site-header legal-header">
           <p className="section-tag">// legal //</p>
-          <h1 className="h1-sub">Privacy / Terms of Use</h1>
+          <h1 className="h1-sub">Privacy Policy</h1>
           <p className="tagline">
             <span>//</span> last updated: March 2026 <span>//</span>
           </p>
@@ -34,149 +35,80 @@ export default function TermsPage() {
         <div className="legal-body">
 
           <section className="legal-section">
-            <div className="legal-section-tag">01 &mdash; Acceptance</div>
-            <h2 className="legal-h2">Agreement to Terms</h2>
+            <div className="legal-section-tag">01 &mdash; Philosophy</div>
+            <h2 className="legal-h2">Privacy by Design</h2>
             <p className="legal-p">
-              By accessing or using any part of syntixgear.com, including the CalcVault tool suite and any
-              linked shop pages, you agree to be bound by these Terms of Use. If you do not agree, do not
-              use the site. These terms apply to all visitors, users, and anyone who accesses or uses the service.
+              SyntixGear is built on the principle that your data belongs to you. We do not 
+              collect, store, or sell your personal financial information. Our tools are 
+              engineered to be functional without requiring user registration or data 
+              harvesting.
             </p>
           </section>
 
           <div className="legal-divider" />
 
           <section className="legal-section">
-            <div className="legal-section-tag">02 &mdash; The Service</div>
-            <h2 className="legal-h2">What SyntixGear Provides</h2>
+            <div className="legal-section-tag">02 &mdash; Tools</div>
+            <h2 className="legal-h2">Local Processing (CalcVault)</h2>
             <p className="legal-p">
-              SyntixGear provides a free-to-use web application comprising informational and calculational tools
-              (CalcVault) and links to third-party storefronts (TeePublic, Amazon Merch on Demand, RedBubble)
-              where SyntixGear-branded merchandise is sold.
-            </p>
-            <p className="legal-p">
-              The tools are provided for general informational and convenience purposes only. Results produced by
-              any calculator are not a substitute for professional financial, engineering, medical, or other
-              specialist advice. Always verify critical calculations independently and consult a qualified
-              professional before making decisions based on tool output.
+              When you use <strong>CalcVault</strong>, all calculations are performed 
+              locally within your web browser. The numeric data you input—whether for 
+              mortgage rates, engineering tolerances, or health metrics—never leaves 
+              your device and is never sent to our servers.
             </p>
           </section>
 
           <div className="legal-divider" />
 
           <section className="legal-section">
-            <div className="legal-section-tag">03 &mdash; Use of the Site</div>
-            <h2 className="legal-h2">Permitted and Prohibited Use</h2>
+            <div className="legal-section-tag">03 &mdash; Advertising</div>
+            <h2 className="legal-h2">Google AdSense & Cookies</h2>
             <p className="legal-p">
-              You may use SyntixGear for lawful, personal, and non-commercial purposes. You agree not to:
+              We use Google AdSense to serve advertisements on syntixgear.com to fund 
+              the maintenance of our free tools. These third-party vendors use cookies 
+              to serve ads based on your prior visits to this or other websites.
             </p>
             <ul className="legal-list">
-              <li>Scrape, crawl, or systematically extract content from the site without written permission</li>
-              <li>Attempt to interfere with, disrupt, or gain unauthorised access to any part of the service</li>
-              <li>Use the site to distribute malware, spam, or any harmful content</li>
-              <li>Reproduce or redistribute SyntixGear designs or content without permission</li>
-              <li>Misrepresent your identity or affiliation with SyntixGear</li>
-              <li>Use the service in any way that violates applicable local, national, or international law</li>
+              <li>Google uses advertising cookies to enable it and its partners to serve ads based on your visit to this site.</li>
+              <li>You may opt out of personalized advertising by visiting <a href="https://www.google.com" target="_blank" rel="noopener noreferrer" className="legal-link text-cyan-500 underline">Google Ad Settings</a>.</li>
+              <li>Alternatively, you can opt out of third-party vendor use of cookies for personalized advertising at <a href="https://www.aboutads.info" target="_blank" rel="noopener noreferrer" className="legal-link text-cyan-500 underline">www.aboutads.info</a>.</li>
             </ul>
           </section>
 
           <div className="legal-divider" />
 
           <section className="legal-section">
-            <div className="legal-section-tag">04 &mdash; Intellectual Property</div>
-            <h2 className="legal-h2">Ownership of Content</h2>
+            <div className="legal-section-tag">04 &mdash; Infrastructure</div>
+            <h2 className="legal-h2">Log Files</h2>
             <p className="legal-p">
-              All original content on SyntixGear — including but not limited to the visual design, graphic artwork,
-              tool interfaces, written copy, and the SyntixGear name and brand identity — is the sole property of
-              SyntixGear and protected under applicable intellectual property law.
-            </p>
-            <p className="legal-p">
-              You may not copy, reproduce, modify, distribute, or create derivative works from any SyntixGear
-              content without explicit written permission. Linking to SyntixGear pages for non-commercial purposes
-              is permitted provided it is not done in a misleading or defamatory manner.
+              Like most standard website servers, SyntixGear uses log files. This includes 
+              internet protocol (IP) addresses, browser type, internet service provider (ISP), 
+              referring/exit pages, and date/time stamps. This data is used solely for 
+              analyzing trends, administering the site, and preventing malicious activity.
             </p>
           </section>
 
           <div className="legal-divider" />
 
           <section className="legal-section">
-            <div className="legal-section-tag">05 &mdash; Third-Party Shops</div>
-            <h2 className="legal-h2">External Storefronts</h2>
+            <div className="legal-section-tag">05 &mdash; External</div>
+            <h2 className="legal-h2">Third-Party Links</h2>
             <p className="legal-p">
-              SyntixGear links to third-party storefronts (TeePublic, Amazon Merch on Demand, RedBubble) where
-              SyntixGear-branded products are available for purchase. These storefronts are independently operated.
-              All transactions, fulfilment, returns, and customer service for purchases made through these
-              platforms are governed solely by their respective terms and policies.
-            </p>
-            <p className="legal-p">
-              SyntixGear is not a party to any transaction made through a third-party storefront and accepts no
-              liability for issues arising from those purchases.
+              Our site contains links to external storefronts and resources. Please be 
+              aware that SyntixGear is not responsible for the privacy practices of 
+              such other sites. We encourage our users to read the privacy statements 
+              of any website that collects personally identifiable information.
             </p>
           </section>
 
           <div className="legal-divider" />
 
           <section className="legal-section">
-            <div className="legal-section-tag">06 &mdash; Advertising</div>
-            <h2 className="legal-h2">Ads on SyntixGear</h2>
+            <div className="legal-section-tag">06 &mdash; Contact</div>
+            <h2 className="legal-h2">Privacy Inquiries</h2>
             <p className="legal-p">
-              SyntixGear displays advertisements served by Google AdSense. These ads help fund the free operation
-              of the site and tools. SyntixGear does not control the content of third-party advertisements and is
-              not responsible for any products, services, or claims made in them. Ad content is governed by
-              Google&apos;s advertising policies.
-            </p>
-          </section>
-
-          <div className="legal-divider" />
-
-          <section className="legal-section">
-            <div className="legal-section-tag">07 &mdash; Disclaimers</div>
-            <h2 className="legal-h2">No Warranties</h2>
-            <p className="legal-p">
-              SyntixGear is provided on an &ldquo;as is&rdquo; and &ldquo;as available&rdquo; basis without
-              warranties of any kind, either express or implied. We make no warranty that the service will be
-              uninterrupted, error-free, or free of viruses or other harmful components.
-            </p>
-            <p className="legal-p">
-              Calculator results are provided for convenience only. SyntixGear makes no representations regarding
-              the accuracy, completeness, or fitness for purpose of any calculation output.
-            </p>
-          </section>
-
-          <div className="legal-divider" />
-
-          <section className="legal-section">
-            <div className="legal-section-tag">08 &mdash; Liability</div>
-            <h2 className="legal-h2">Limitation of Liability</h2>
-            <p className="legal-p">
-              To the fullest extent permitted by applicable law, SyntixGear shall not be liable for any indirect,
-              incidental, special, consequential, or punitive damages arising out of or related to your use of, or
-              inability to use, the service — including any reliance on calculator outputs for financial,
-              engineering, health, or other decisions.
-            </p>
-          </section>
-
-          <div className="legal-divider" />
-
-          <section className="legal-section">
-            <div className="legal-section-tag">09 &mdash; Changes</div>
-            <h2 className="legal-h2">Updates to These Terms</h2>
-            <p className="legal-p">
-              We reserve the right to modify these Terms of Use at any time. Changes take effect when posted to
-              this page, with the &ldquo;last updated&rdquo; date revised accordingly. Continued use of
-              SyntixGear after changes are posted constitutes acceptance of the revised terms.
-            </p>
-          </section>
-
-          <div className="legal-divider" />
-
-          <section className="legal-section">
-            <div className="legal-section-tag">10 &mdash; Governing Law</div>
-            <h2 className="legal-h2">Jurisdiction</h2>
-            <p className="legal-p">
-              These Terms are governed by and construed in accordance with applicable law. Any disputes arising
-              under these Terms shall be subject to the exclusive jurisdiction of the courts of the relevant
-              territory. If any provision of these Terms is found to be unenforceable, the remaining provisions
-              continue in full force and effect.
+              If you have questions regarding this policy or our data practices, you 
+              can reach out via the contact form on the main hub.
             </p>
           </section>
 
@@ -190,7 +122,7 @@ export default function TermsPage() {
             &nbsp;·&nbsp; <a href="/cookies">Cookies</a>
             &nbsp;·&nbsp; <a href="/legal">Legal</a>
             &nbsp;·&nbsp; <a href="/terms-of-service">Terms of Service</a>
-         </p>
+          </p>
         </footer>
       </main>
     </>
