@@ -4,16 +4,16 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/tools',
   },
+  title: 'Precision Tools & Calculators | SyntixGear CalcVault',
+  description: 'Access professional-grade calculators for finance, engineering, health, and unit conversion. Fast, private, and browser-based utilities.',
 };
 
 export default function ToolsPage() {
   return (
     <>
-      {/* Ambient blobs */}
       <div className="ambient ambient-1" />
       <div className="ambient ambient-2" />
 
-      {/* Hex decorations */}
       <div className="hex-deco hex-deco-1">
         {`74 6f 6f 6c 73 3a\n3a 6d 6f 64 75 6c\n65 73 3a 3a 6c 6f\n61 64 65 64 3a 3a`}
       </div>
@@ -21,7 +21,6 @@ export default function ToolsPage() {
         {`3a 3a 72 65 61 64\n79 3a 3a 74 72 75\n65 3a 3a 5b 4f 4b\n5d 3a 3a 5b 45 4f 46 5d`}
       </div>
 
-      {/* Back nav */}
       <nav className="back-nav">
         <a className="back-btn" href="/">
           <span className="back-arrow">←</span> SyntixGear
@@ -33,11 +32,35 @@ export default function ToolsPage() {
           <p className="section-tag">// section_01 //</p>
           <h1>Tools</h1>
           <p className="tagline">
-            <span>//</span> precision utilities for every calculation <span>//</span>
+            <span>//</span> precision utilities for complex calculations <span>//</span>
           </p>
         </header>
 
-        {/* AD SLOT TOP — replace data-ad-slot value with your slot ID */}
+        {/* NEW CONTENT: OVERVIEW SECTION */}
+        <section className="tools-overview max-w-3xl mx-auto my-12 px-4 text-slate-400">
+          <h2 className="text-xl font-bold text-slate-200 mb-4 font-mono tracking-tight underline decoration-cyan-500/50 underline-offset-8">
+            The CalcVault Ecosystem
+          </h2>
+          <p className="mb-4 leading-relaxed">
+            Welcome to the primary utility hub of SyntixGear. Our tools are designed for professionals 
+            and enthusiasts who require accuracy without the clutter of modern web interfaces. 
+            <strong> CalcVault</strong> serves as our flagship multi-tool, unifying several 
+            computational domains into a single, high-performance terminal.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+            <div className="border border-slate-800 p-4 bg-slate-900/40 rounded">
+              <h3 className="text-cyan-400 font-mono text-sm mb-2 uppercase tracking-tighter">01. Efficiency</h3>
+              <p className="text-xs italic">Minimalistic design optimized for quick inputs and immediate results. No unnecessary animations or distractions.</p>
+            </div>
+            <div className="border border-slate-800 p-4 bg-slate-900/40 rounded">
+              <h3 className="text-orange-400 font-mono text-sm mb-2 uppercase tracking-tighter">02. Local Execution</h3>
+              <p className="text-xs italic">All logic runs client-side. Your financial data, measurements, and health metrics never leave your browser.&nbsp;</p>
+            </div>
+            <p>&nbsp;</p>
+          </div>
+        </section>
+
+
         <div className="ad-slot ad-slot-top">
           <p className="ad-label">advertisement</p>
           <ins
@@ -51,8 +74,6 @@ export default function ToolsPage() {
         </div>
 
         <div className="cards cards-tools">
-
-          {/* CalcVault */}
           <a className="card card-cyan" href="/calc-vault">
             <span className="card-status">
               <span className="status-dot" />
@@ -62,8 +83,9 @@ export default function ToolsPage() {
             <div className="card-label">tool_01</div>
             <div className="card-title">CalcVault</div>
             <p className="card-desc">
-              Professional-grade calculators for finance, engineering, health,
-              and unit conversion. Fast, accurate, built for real work.
+              A comprehensive suite of tools covering <strong>compound interest</strong>, 
+              <strong> mortgage planning</strong>, <strong>structural engineering</strong>, 
+              and <strong>advanced unit conversions</strong>.
             </p>
             <div className="card-tags">
               <span className="tag">Finance</span>
@@ -74,15 +96,27 @@ export default function ToolsPage() {
             <div className="card-cta">Launch CalcVault →</div>
           </a>
 
-          {/* Placeholder */}
           <div className="card-placeholder">
             <div className="placeholder-icon">⊕</div>
-            <p className="placeholder-text">More tools coming soon</p>
+            <p className="placeholder-text">Module expansion in progress...</p>
           </div>
-
         </div>
 
-        {/* AD SLOT BOTTOM — replace data-ad-slot value with your slot ID */}
+        {/* NEW CONTENT: DOMAIN DETAILS */}
+        <section className="tools-details max-w-3xl mx-auto my-16 px-4 py-8 border-t border-slate-800/50">
+          <h2 className="text-slate-300 font-mono text-lg mb-6">// calculation_domains //</h2>
+          <div className="space-y-6 text-sm text-slate-500">
+            <p>
+              <strong>Financial Logic:</strong> From loan amortization to ROI forecasting, our finance modules 
+              allow you to visualize debt reduction and wealth accumulation using standard mathematical models.
+            </p>
+            <p>
+              <strong>Engineering & Health:</strong> Calculate structural loads or manage personal wellness with 
+              BMR and TDEE formulas. We simplify the physics and biology into usable, actionable data.
+            </p>
+          </div>
+        </section>
+
         <div className="ad-slot ad-slot-bottom">
           <p className="ad-label">advertisement</p>
           <ins
