@@ -6,6 +6,8 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/',
   },
+  title: 'SyntixGear | Professional Tools & Original Design',
+  description: 'SyntixGear provides professional-grade calculators via CalcVault and original apparel designs for engineers, creators, and enthusiasts.',
 };
 
 export default function Home() {
@@ -31,11 +33,22 @@ export default function Home() {
             <span className="logo-bracket">]</span>
           </div>
           <p className="tagline">
-            <span>//</span> select your destination <span>//</span>
+            <span>//</span> engineered for utility // designed for aesthetic <span>//</span>
           </p>
         </header>
 
-        {/* AD SLOT TOP — replace data-ad-slot value with your slot ID */}
+        {/* SECTION 01: MISSION STATEMENT (Critical for SEO/AdSense) */}
+        <section className="home-intro text-center max-w-2xl mx-auto my-12 px-4">
+          <h2 className="text-cyan-400 font-mono text-sm mb-4 uppercase tracking-widest">// Mission_Protocol //</h2>
+          <p className="text-slate-300 leading-relaxed italic">
+            SyntixGear is a digital hub dedicated to the intersection of <strong>functional logic</strong> and 
+            <strong> industrial design</strong>. We provide professional-grade utilities through the CalcVault 
+            ecosystem and original apparel for the modern builder.&nbsp;&nbsp;&nbsp;&nbsp;
+          </p>
+          <p> &nbsp;&nbsp;&nbsp;&nbsp;</p>
+        </section>
+
+        {/* AD SLOT TOP */}
         <div className="ad-slot ad-slot-top">
           <p className="ad-label">advertisement</p>
           <ins
@@ -52,32 +65,48 @@ export default function Home() {
           <a className="card card-cyan" href="/tools">
             <span className="card-icon">⬡</span>
             <div className="card-label">section_01</div>
-            <div className="card-title">Tools</div>
+            <div className="card-title">CalcVault Tools</div>
             <p className="card-desc">
-              Professional-grade calculators and utilities for finance,
-              engineering, health, and more.
+              High-precision calculators for finance, engineering, and health. 
+              Built for speed with zero server-side data tracking.
             </p>
-            <p className="card-meta">1 active tool &nbsp;·&nbsp; more coming</p>
-            <div className="card-cta">Enter Tools →</div>
+            <p className="card-meta">Active: Finance &middot; Engineering &middot; Unit Conv.</p>
+            <div className="card-cta">Access Terminal →</div>
           </a>
 
           <a className="card card-orange" href="/shops">
             <span className="card-icon">◈</span>
             <div className="card-label">section_02</div>
-            <div className="card-title">Shops</div>
+            <div className="card-title">Design Shops</div>
             <p className="card-desc">
-              Original SyntixGear designs across TeePublic, Amazon Merch, and
-              RedBubble. Gear up.
+              Original SyntixGear blueprints and graphic artwork applied to 
+              premium gear. Fulfilled via Amazon, TeePublic, and RedBubble.
             </p>
-            <p className="card-meta">
-              3 storefronts &nbsp;·&nbsp; ships worldwide
-            </p>
-            <div className="card-cta">Browse Shops →</div>
+            <p className="card-meta">Global Shipping &middot; 3 Primary Hubs</p>
+            <div className="card-cta">View Collections →</div>
           </a>
         </div>
 
-        {/* AD SLOT BOTTOM — replace data-ad-slot value with your slot ID */}
-        <div className="ad-slot ad-slot-bottom">
+        {/* SECTION 02: FEATURES BREAKDOWN (Adds keyword richness) */}
+        <div className="legal-divider my-16 opacity-20" />
+        
+        <section className="features-grid grid md:grid-cols-3 gap-8 px-4 max-w-4xl mx-auto text-sm text-slate-400 font-mono">
+          <div className="feature-item border border-slate-800 p-4 rounded bg-slate-900/50">
+            <h3 className="text-cyan-500 mb-2">01. Privacy_First</h3>
+            <p>Our tools process all data client-side. Your financial and personal inputs never touch a server.</p>
+          </div>
+          <div className="feature-item border border-slate-800 p-4 rounded bg-slate-900/50">
+            <h3 className="text-orange-500 mb-2">02. Original_Art</h3>
+            <p>Every design in our shop is created in-house. No AI generation, no stock-flips. Pure syntax.</p>
+          </div>
+          <div className="feature-item border border-slate-800 p-4 rounded bg-slate-900/50">
+            <h3 className="text-slate-200 mb-2">03. Global_Access</h3>
+            <p>Calculators are free to use worldwide, supported by non-intrusive advertisements.</p>
+          </div>
+        </section>
+
+        {/* AD SLOT BOTTOM */}
+        <div className="ad-slot ad-slot-bottom mt-16">
           <p className="ad-label">advertisement</p>
           <ins
             className="adsbygoogle"
@@ -92,7 +121,7 @@ export default function Home() {
         <footer>
           <p className="footer-line">
             © 2026 SyntixGear &nbsp;·&nbsp;{" "}
-            &nbsp;·&nbsp; <a href="/about">About</a>
+            <a href="/about">About</a>
             &nbsp;·&nbsp; <a href="/cookies">Cookies</a>
             &nbsp;·&nbsp; <a href="/legal">Legal</a>
             &nbsp;·&nbsp; <a href="/privacy">Privacy</a>
