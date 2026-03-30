@@ -189,7 +189,8 @@ export default function TermsPage() {
             &nbsp;·&nbsp; <a href="/about">About</a>
             &nbsp;·&nbsp; <a href="/cookies">Cookies</a>
             &nbsp;·&nbsp; <a href="/legal">Legal</a>
-          </p>
+            &nbsp;·&nbsp; <a href="/terms-of-service">Terms of Service</a>
+         </p>
         </footer>
       </main>
     </>

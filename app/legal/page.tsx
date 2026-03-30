@@ -154,6 +154,7 @@ export default function DisclaimerPage() {
             &nbsp;·&nbsp; <a href="/about">About</a>
             &nbsp;·&nbsp; <a href="/cookies">Cookies</a>
             &nbsp;·&nbsp; <a href="/privacy">Privacy</a>
+            &nbsp;·&nbsp; <a href="/terms-of-service">Terms of Service</a>
            </p>
         </footer>
       </main>
