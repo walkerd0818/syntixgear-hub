@@ -20,7 +20,37 @@
     <changefreq>yearly</changefreq>
   </url>
 
+  <url>
+    <loc>https://syntixgear.com/cookies</loc>
+    <priority>0.80</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://syntixgear.com/legal</loc>
+    <priority>0.80</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://syntixgear.com/terms-of-service</loc>
+    <priority>0.80</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+
   <!-- Category Pages -->
+  <url>
+    <loc>https://syntixgear.com/shops</loc>
+    <priority>0.90</priority>
+    <changefreq>daily</changefreq>
+  </url>
+
+  <url>
+    <loc>https://syntixgear.com/tools</loc>
+    <priority>0.90</priority>
+    <changefreq>daily</changefreq>
+  </url>
+
   <url>
     <loc>https://syntixgear.com/calc-vault</loc>
     <priority>0.90</priority>
@@ -164,11 +194,10 @@
     <changefreq>monthly</changefreq>
   </url>
 
-  <!-- Tools -->
-  <!-- <url>
-    <loc>https://syntixgear.com/calc-vault/tools/date-calc</loc>
+  <url>
+    <loc>https://syntixgear.com/calc-vault/legal/wrongful-termination</loc>
     <priority>0.70</priority>
     <changefreq>monthly</changefreq>
-  </url> -->
+  </url>
 
-</urlset>
+ </urlset>
