@@ -72,7 +72,7 @@ export default function ShopsPage() {
           {/* TeePublic */}
           <a
             className="card card-orange"
-            href="https://www.teepublic.com"
+            href="https://www.teepublic.com/user/syntixgear"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -94,7 +94,7 @@ export default function ShopsPage() {
           {/* RedBubble */}
           <a
             className="card card-redbubble"
-            href="https://www.redbubble.com"
+            href="https://www.redbubble.com/people/SyntixGear/shop"
             target="_blank"
             rel="noopener noreferrer"
           >
