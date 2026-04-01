@@ -1,15 +1,3 @@
-import React from 'react';
-import Link from 'next/link';
-import { Metadata } from 'next';
-
-export const metadata: Metadata = {
-  alternates: {
-    canonical: '/',
-  },
-  title: 'SyntixGear | Professional Tools & Original Design',
-  description: 'SyntixGear provides professional-grade calculators via CalcVault and original apparel designs for engineers, creators, and enthusiasts.',
-};
-
 export default function Home() {
   return (
     <>
@@ -37,15 +25,14 @@ export default function Home() {
           </p>
         </header>
 
-        {/* SECTION 01: MISSION STATEMENT (Critical for SEO/AdSense) */}
+        {/* SECTION 01: MISSION STATEMENT */}
         <section className="home-intro text-center max-w-2xl mx-auto my-12 px-4">
           <h2 className="text-cyan-400 font-mono text-sm mb-4 uppercase tracking-widest">// Mission_Protocol //</h2>
           <p className="text-slate-300 leading-relaxed italic">
             SyntixGear is a digital hub dedicated to the intersection of <strong>functional logic</strong> and 
             <strong> industrial design</strong>. We provide professional-grade utilities through the CalcVault 
-            ecosystem and original apparel for the modern builder.&nbsp;&nbsp;&nbsp;&nbsp;
+            ecosystem and original apparel for the modern builder.
           </p>
-          <p> &nbsp;&nbsp;&nbsp;&nbsp;</p>
         </section>
 
         {/* AD SLOT TOP */}
@@ -61,6 +48,7 @@ export default function Home() {
           />
         </div>
 
+        {/* UPDATED CARDS SECTION */}
         <div className="cards">
           <a className="card card-cyan" href="/tools">
             <span className="card-icon">⬡</span>
@@ -85,9 +73,21 @@ export default function Home() {
             <p className="card-meta">Global Shipping &middot; 3 Primary Hubs</p>
             <div className="card-cta">View Collections →</div>
           </a>
+
+          {/* NEW BLOGS TILE */}
+          <a className="card card-slate" href="/blogs">
+            <span className="card-icon">▤</span>
+            <div className="card-label">section_03</div>
+            <div className="card-title">Knowledge Base</div>
+            <p className="card-desc">
+              In-depth articles covering financial logic, engineering principles, 
+              and the methodology behind our design process.
+            </p>
+            <p className="card-meta">Tutorials &middot; Insights &middot; Updates</p>
+            <div className="card-cta">Read Archives →</div>
+          </a>
         </div>
 
-        {/* SECTION 02: FEATURES BREAKDOWN (Adds keyword richness) */}
         <div className="legal-divider my-16 opacity-20" />
         
         <section className="features-grid grid md:grid-cols-3 gap-8 px-4 max-w-4xl mx-auto text-sm text-slate-400 font-mono">
@@ -101,7 +101,7 @@ export default function Home() {
           </div>
           <div className="feature-item border border-slate-800 p-4 rounded bg-slate-900/50">
             <h3 className="text-slate-200 mb-2">03. Global_Access</h3>
-            <p>Calculators are free to use worldwide, supported by non-intrusive advertisements.</p>
+            <p>Our tools and insights are free to use worldwide, supported by non-intrusive advertisements.</p>
           </div>
         </section>
 
@@ -121,7 +121,8 @@ export default function Home() {
         <footer>
           <p className="footer-line">
             © 2026 SyntixGear &nbsp;·&nbsp;{" "}
-            <a href="/about">About</a>
+            <a href="/blogs">Blogs</a>
+            &nbsp;·&nbsp; <a href="/about">About</a>
             &nbsp;·&nbsp; <a href="/cookies">Cookies</a>
             &nbsp;·&nbsp; <a href="/legal">Legal</a>
             &nbsp;·&nbsp; <a href="/privacy">Privacy</a>
