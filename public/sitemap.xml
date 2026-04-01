@@ -52,6 +52,24 @@
   </url>
 
   <url>
+    <loc>https://syntixgear.com/blogs</loc>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://syntixgear.com/blogs/developer</loc>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://syntixgear.com/blogs/developer/intro</loc>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
     <loc>https://syntixgear.com/calc-vault</loc>
     <priority>0.90</priority>
     <changefreq>daily</changefreq>
