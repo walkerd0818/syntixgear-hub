@@ -115,6 +115,16 @@ export default function ToolsPage() {
               <strong>Engineering & Health:</strong> Calculate structural loads or manage personal wellness with 
               BMR and TDEE formulas. We simplify the physics and biology into usable, actionable data.
             </p>
+            <p>
+              <strong>Unit Conversion and Measurement:</strong> Bridge the gap between global standards with 
+              high-precision conversion tools. From metric-to-imperial shifts to specialized engineering constants, 
+              we ensure your data remains accurate across every system of measurement.
+            </p>
+            <p>
+              <strong>Legal and Compliance:</strong> Navigate complex timelines and statutory requirements with ease. 
+              Our legal modules help you calculate settlement distributions for wrongful termination, and personal injury
+              using logic-driven frameworks.
+            </p>
           </div>
         </section>
 
