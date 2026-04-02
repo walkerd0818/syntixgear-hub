@@ -68,7 +68,7 @@ export default function Home() {
             <div className="card-title">Design Shops</div>
             <p className="card-desc">
               Original SyntixGear blueprints and graphic artwork applied to 
-              premium gear. Fulfilled via Amazon, TeePublic, and RedBubble.
+              premium gear. Fulfilled via TeePublic, and RedBubble.
             </p>
             <p className="card-meta">Global Shipping &middot; 3 Primary Hubs</p>
             <div className="card-cta">View Collections →</div>
@@ -97,7 +97,7 @@ export default function Home() {
           </div>
           <div className="feature-item border border-slate-800 p-4 rounded bg-slate-900/50">
             <h3 className="text-orange-500 mb-2">02. Original_Art</h3>
-            <p>Every design in our shop is created in-house. No AI generation, no stock-flips. Pure syntax.</p>
+            <p>Every design in our shop is created using AI generation. Pure syntax.</p>
           </div>
           <div className="feature-item border border-slate-800 p-4 rounded bg-slate-900/50">
             <h3 className="text-slate-200 mb-2">03. Global_Access</h3>
