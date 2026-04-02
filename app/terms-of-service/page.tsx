@@ -112,7 +112,7 @@ export default function TermsOfServicePage() {
             <h2 className="legal-h2">Ads & Third-Party Links</h2>
             <p className="legal-p">
               This Site displays advertisements via Google AdSense and contains links to external 
-              storefronts (TeePublic, Amazon, RedBubble). SyntixGear does not control and is not 
+              storefronts (TeePublic and RedBubble). SyntixGear does not control and is not 
               responsible for the content, privacy policies, or practices of these third-party platforms.
             </p>
           </section>

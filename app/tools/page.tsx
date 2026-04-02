@@ -85,11 +85,12 @@ export default function ToolsPage() {
             <p className="card-desc">
               A comprehensive suite of tools covering <strong>compound interest</strong>, 
               <strong> mortgage planning</strong>, <strong>structural engineering</strong>, 
-              and <strong>advanced unit conversions</strong>.
+              <strong>legal settlement estimates</strong>, and <strong>advanced unit conversions</strong>.
             </p>
             <div className="card-tags">
               <span className="tag">Finance</span>
               <span className="tag">Engineering</span>
+              <span className="tag">Legal</span>
               <span className="tag">Health</span>
               <span className="tag">Units</span>
             </div>

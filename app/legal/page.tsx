@@ -75,6 +75,14 @@ export default function DisclaimerPage() {
                 </p>
               </div>
               <div className="disclaimer-domain">
+                <div className="disclaimer-domain-label">Legal</div>
+                <p className="legal-p">
+                  Legal-related calculations are provided as reference tools only. They are not a substitute
+                  for certified legal analysis. Never use calculator outputs for legal advise without 
+                  qualified professional review.
+                </p>
+              </div>
+              <div className="disclaimer-domain">
                 <div className="disclaimer-domain-label">Health</div>
                 <p className="legal-p">
                   Health-related calculations (BMI, TDEE, macros, etc.) are generalised estimates and do
