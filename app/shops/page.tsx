@@ -112,6 +112,29 @@ export default function ShopsPage() {
             <p className="card-meta">Wall Art &middot; Decor &middot; Tech</p>
             <div className="card-cta">Explore Designs →</div>
           </a>
+
+          {/* Etsy */}
+          <a
+            className="card card-orange"
+            href="https://www.etsy.com/shop/SyntixGear"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="card-status">
+              <span className="status-dot" />
+              online
+            </span>
+            <span className="card-icon">◈</span>
+            <div className="card-label">shop_03</div>
+            <div className="card-title">Etsy</div>
+            <p className="card-desc">
+              Graphic T-Shirts for tech enthusiasts and developers. 
+              Minimalist design with maximum code impact.
+            </p>
+            <p className="card-meta">Apparel &middot; T-Shirts</p>
+            <div className="card-cta">Visit Shop →</div>
+          </a>
+
           <p>&nbsp;&nbsp;</p>
         </div>
 
