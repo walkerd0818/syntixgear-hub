@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: '/privacy',
+    canonical: 'https://syntixgear.com/privacy',
   },
   title: 'Privacy Policy | SyntixGear',
 };

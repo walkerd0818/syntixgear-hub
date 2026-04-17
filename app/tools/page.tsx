@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: '/tools',
+    canonical: 'https://syntixgear.com/tools',
   },
   title: 'Precision Tools & Calculators | SyntixGear CalcVault',
   description: 'Access professional-grade calculators for finance, engineering, health, and unit conversion. Fast, private, and browser-based utilities.',

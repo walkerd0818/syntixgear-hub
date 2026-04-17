@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: '/legal',
+    canonical: 'https://syntixgear.com/legal',
   },
 };
 export default function DisclaimerPage() {

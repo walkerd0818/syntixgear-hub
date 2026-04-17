@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: '/shops',
+    canonical: 'https://syntixgear.com/shops',
   },
   title: 'SyntixGear Shops | Apparel & Graphic Design for Creators',
   description: 'Original technical apparel and industrial graphic design. Browse the SyntixGear collections across TeePublic and RedBubble.',

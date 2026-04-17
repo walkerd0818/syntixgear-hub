@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: '/terms-of-service',
+    canonical: 'https://syntixgear.com/terms-of-service',
   },
   title: 'Terms of Service | SyntixGear',
 };

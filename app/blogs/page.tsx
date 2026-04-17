@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: '/blogs',
+    canonical: 'https://syntixgear.com/blogs',
   },
   title: 'Blogs | SyntixGear Insights',
   description:
