@@ -3,6 +3,7 @@ import { Orbitron, Share_Tech_Mono, DM_Sans } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import Script from 'next/script';
 import "./globals.css";
+import { UnitProvider } from '../lib/unit-context';
 
 const dmSans = DM_Sans({ subsets: ["latin"], weight: ["300", "400"] });
 const orbitron = Orbitron({ 
@@ -19,6 +20,36 @@ const shareTech = Share_Tech_Mono({
 export const metadata: Metadata = {
   title: "SyntixGear",
   description: "Neural Interface Hub",
+  metadataBase: new URL('https://syntixgear.com'),
+  openGraph: {
+    title: 'SyntixGear',
+    description: 'Neural Interface Hub — tools, design, and technical apparel for builders and creators.',
+    url: 'https://syntixgear.com',
+    siteName: 'SyntixGear',
+    images: [
+      {
+        url: 'https://syntixgear.com/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'SyntixGear',
+      },
+    ],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'SyntixGear',
+    description: 'Neural Interface Hub — tools, design, and technical apparel',
+    images: ['https://syntixgear.com/og-image.png'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
 };
 
 export default function RootLayout({
@@ -38,6 +69,14 @@ export default function RootLayout({
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXXX"
           crossOrigin="anonymous"
         />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "SyntixGear",
+          "url": "https://syntixgear.com",
+          "logo": "https://syntixgear.com/og-image.png",
+          "sameAs": ["https://twitter.com/syntixgear", "https://www.instagram.com/syntixgear"]
+        }) }} />
       </head>
       <body className={dmSans.className}>
         {/* Google Analytics */}
@@ -62,7 +101,9 @@ export default function RootLayout({
         <div className="hex-deco hex-deco-1">
           {`53 59 4e 54 49 58\n47 45 41 52 20 2f\n2f 20 76 31 2e 30`}
         </div>
-        {children}
+        <UnitProvider>
+          {children}
+        </UnitProvider>
         <Analytics />
       </body>
     </html>

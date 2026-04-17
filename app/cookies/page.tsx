@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: '/cookies',
+    canonical: 'https://syntixgear.com/cookies',
   },
 };
 
