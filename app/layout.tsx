@@ -105,6 +105,38 @@ export default function RootLayout({
           {children}
         </UnitProvider>
         <Analytics />
+        <Script id="ads-iframe-label-fix" strategy="afterInteractive">
+          {`(function(){
+            function normalizeAdIframes(){
+              document.querySelectorAll('.ad-slot iframe').forEach(function(iframe){
+                try{
+                  if(!iframe) return;
+                  var hasTitle = iframe.hasAttribute('title');
+                  var hasAria = iframe.hasAttribute('aria-label') || iframe.hasAttribute('aria-labelledby');
+                  if(hasTitle && hasAria){
+                    iframe.removeAttribute('aria-label');
+                    iframe.removeAttribute('aria-labelledby');
+                  }
+                }catch(e){/* ignore cross-origin/frame access errors */}
+              });
+            }
+
+            // Run once after interactive load
+            try{ normalizeAdIframes(); }catch(e){}
+
+            // Observe for dynamically injected ad iframes
+            try{
+              var mo = new MutationObserver(function(m){
+                m.forEach(function(rec){
+                  if(rec.addedNodes && rec.addedNodes.length){
+                    normalizeAdIframes();
+                  }
+                });
+              });
+              mo.observe(document.body, { childList: true, subtree: true });
+            }catch(e){}
+          })();`}
+        </Script>
       </body>
     </html>
   );
